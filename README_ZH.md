@@ -30,6 +30,7 @@
 
 ## ⚙️ 配置
 
+```yaml
 # 插件总开关
 enable: true
 
