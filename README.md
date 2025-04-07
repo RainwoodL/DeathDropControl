@@ -47,3 +47,5 @@ protected-slots: [0,1,2,3]
 broadcast:
   enable: true
   message: "⚔️ %player% was slain in %world%"
+
+Reproduction without permission is prohibited!
