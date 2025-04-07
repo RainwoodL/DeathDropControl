@@ -16,7 +16,6 @@ Advanced death item management solution for Minecraft servers. Control exactly w
 - **Multi-World Support** - Different rules for different worlds
 - **Death Broadcasts** - Customizable death messages
 - **Real-time Reload** - Modify config without restart
-- **Permission System** - Granular control over commands
 
 ---
 
