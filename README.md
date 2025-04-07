@@ -5,7 +5,7 @@
 ![GitHub Release](https://img.shields.io/github/v/release/RainwoodL/DeathDropControl)
 
 Advanced death item management solution for Minecraft servers. Control exactly what items players drop on death!
-
+Reproduction without permission is prohibited!
 [中文文档](https://github.com/RainwoodL/DeathDropControl/blob/main/README_ZH.md) | [Download](https://github.com/RainwoodL/DeathDropControl/releases)
 
 ---
@@ -47,5 +47,5 @@ protected-slots: [0,1,2,3]
 broadcast:
   enable: true
   message: "⚔️ %player% was slain in %world%"
-```yaml
-Reproduction without permission is prohibited!
+
+
