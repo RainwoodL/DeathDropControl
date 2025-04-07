@@ -9,7 +9,7 @@
 [English document](https://github.com/RainwoodL/DeathDropControl/blob/main/README.md)|[下载](https://github.com/RainwoodL/DeathDropControl/releases)
 
 ---
-
+## 禁止未经授权的转发！如果您坚持转发，请附上源地址！
 ## ✨ 特征
 
 -**智能插槽保护**-将物品保存在特定的库存插槽中
