@@ -22,9 +22,12 @@
 ## 🚀 安装
 
 1.从[发布]下载最新的.jar(https://github.com/RainwoodL/DeathDropControl/releases)
+
 2.将jar文件放在服务器的“plugins/”文件夹中
+
 3.重新启动/运行服务器
-4.根据需要编辑`plugins/DeathDropControl/config.yml`
+
+4.根据需要编辑`plugins/DeathDropControl/config.yml
 
 ---
 
