@@ -8,7 +8,7 @@ Advanced death item management solution for Minecraft servers. Control exactly w
 [中文文档](https://github.com/RainwoodL/DeathDropControl/blob/main/README_ZH.md) | [Download](https://github.com/RainwoodL/DeathDropControl/releases)
 
 ---
-## Unauthorized forwarding is prohibited! If you have to forward, please attach the source address!
+## Unauthorized forwarding is prohibited! If you insist on forwarding, please attach the source address!
 
 
 ## ✨ Features
