@@ -1,0 +1,13 @@
+name: DeathDropControl
+version: 1.0.0
+main: plugin.DeathDropControl
+api-version: '1.21'
+author: Rainwood
+website: https://github.com/RainwoodL/DeathDropControl
+description: |-
+  高级死亡掉落控制插件 | github.com/RainwoodL/DeathDropControl
+commands:
+  deathdropcontrol:
+    description: "管理死亡掉落设置"
+    permission: deathdropcontrol.admin
+    aliases: [ddc]

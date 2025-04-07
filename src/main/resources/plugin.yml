@@ -1,0 +1,13 @@
+name: DeathDropControl
+version: 1.0.0
+main: plugin.DeathDropControl
+api-version: '1.21'
+author: Rainwood
+website: https://github.com/RainwoodL/DeathDropControl
+description: |-
+  Advanced control for death item drops
+commands:
+  deathcontrol:
+    description: Manage death drop settings
+    permission: deathcontrol.admin
+    aliases: [ddc]

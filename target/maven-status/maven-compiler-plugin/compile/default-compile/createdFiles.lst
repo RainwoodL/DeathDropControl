@@ -1,0 +1,3 @@
+plugin\DeathDropControl.class
+plugin\Commands.class
+plugin\EventListener.class

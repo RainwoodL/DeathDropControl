@@ -1,0 +1,39 @@
+# ============== DeathDropControl Configuration ==============
+# Official Version: https://github.com/RainwoodL/DeathDropControl
+# DO NOT MODIFY SIGNATURE SECTION BELOW
+
+# Master switch (true=enable | false=disable)
+enable: true
+
+# Enabled worlds (Only deaths in these worlds will be processed)
+# Use exact world names shown in /worlds command
+# Supported types: normal/nether/the_end/custom
+worlds:
+  - world
+  - world_nether
+  - world_the_end
+
+# Protected inventory slots (Items in these slots won't drop)
+# Slot IDs:
+#   0-8    : Hotbar
+#   9-35   : Main inventory
+#   36-39  : Armor slots (helmet/chestplate/leggings/boots)
+#   40     : Off-hand
+protected-slots:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+
+# Death broadcast settings
+broadcast:
+  # Enable death announcements (true=enable | false=disable)
+  enable: false
+
+  # Broadcast message
+  message: "%player% was killed by author's handsomeness"
