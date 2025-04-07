@@ -30,21 +30,20 @@
 
 ## ⚙️ 配置
 
-###config.yml示例：
-```yaml
-#启用/禁用插件
-启用：true
+# 插件总开关
+enable: true
 
-#启用功能的世界
-世界：
--世界
--阴间
+# 生效的世界
+worlds:
+  - world
+  - nether_world
 
-#物品不会掉落的插槽（0-40）
-受保护插槽：[0,1,2,3]
+# 防止掉落的物品槽(1-40)
+protected-slots: [0,1,2,3]
 
-#死亡消息设置
-广播：
-启用：true
-消息："⚔️ %玩家%在%world%中被杀”
-
+# 死亡消息  
+broadcast:
+  # 死亡消息开关
+  enable: true
+  # 消息
+  message: "⚔️ %player% 壮烈牺牲在 %world%"
