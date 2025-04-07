@@ -1,26 +1,50 @@
 # 🛡️ DeathDropControl 
 
-![Minecraft](https://img.shields.io/badge/Minecraft-1.21+-brightgreen)
+![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21%2B-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-blue)
+![GitHub Release](https://img.shields.io/github/v/release/RainwoodL/DeathDropControl)
 
-> Professional death drop management solution for Minecraft servers
+Advanced death item management solution for Minecraft servers. Control exactly what items players drop on death!
 
-## ✨ 功能特性
-- 多世界独立配置
-- 精确槽位保护
-- 实时配置重载
-- 死亡广播系统
+[中文文档](https://github.com/RainwoodL/DeathDropControl/blob/main/README_ZH.md) | [Download](https://github.com/RainwoodL/DeathDropControl/releases)
 
-## 📦 安装
-1. 下载最新版本: [Releases](https://github.com/RainwoodL/DeathDropControl/releases)
-2. 将插件放入 `plugins/` 目录
-3. 重启服务器
+---
 
-## ⚙️ 命令列表
-| 命令            | 权限节点               | 功能               |
-|-----------------|------------------------|--------------------|
-| /ddc reload     | deathdropcontrol.admin | 重载配置           |
-| /ddc help       | 无                     | 显示帮助           |
+## ✨ Features
 
-## 📄 文档
-完整配置指南: [Wiki](https://github.com/RainwoodL/DeathDropControl/wiki)
+- **Smart Slot Protection** - Keep items in specific inventory slots
+- **Multi-World Support** - Different rules for different worlds
+- **Death Broadcasts** - Customizable death messages
+- **Real-time Reload** - Modify config without restart
+- **Permission System** - Granular control over commands
+
+---
+
+## 🚀 Installation
+
+1. Download latest `.jar` from [Releases](https://github.com/RainwoodL/DeathDropControl/releases)
+2. Place the jar file in your server's `plugins/` folder
+3. Restart/Run your server
+4. Edit `plugins/DeathDropControl/config.yml` as needed
+
+---
+
+## ⚙️ Configuration
+
+### config.yml Example:
+```yaml
+# Enable/Disable plugin
+enable: true
+
+# Worlds to enable features
+worlds:
+  - world
+  - nether_world
+
+# Slots where items won't drop (0-40)
+protected-slots: [0,1,2,3]
+
+# Death message settings  
+broadcast:
+  enable: true
+  message: "⚔️ %player% was slain in %world%"
