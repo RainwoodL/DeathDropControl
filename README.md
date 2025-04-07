@@ -16,7 +16,6 @@ Advanced death item management solution for Minecraft servers. Control exactly w
 - **Smart Slot Protection** - Keep items in specific inventory slots
 - **Multi-World Support** - Different rules for different worlds
 - **Death Broadcasts** - Customizable death messages
-- **Real-time Reload** - Modify config without restart
 
 ---
 
